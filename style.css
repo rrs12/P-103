@@ -1,0 +1,31 @@
+:root {
+    --orangesky: linear-gradient(#de6262, #ffb88c);
+    --midnight: linear-gradient(#003366 0%, #002457 100%);
+    --purple-peach:linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+
+body {
+    background-image: var(--orangesky);
+}
+
+.midnight {
+
+    background: var(--midnight);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.btn1{
+    background-image: var(--purple-peach);
+    color: white;
+    font-size: 2rem;
+    border-style: none;
+    border-radius: 4rem;
+}
+h3{
+    color: #184e77;
+}
+p{
+    background: var(--midnight);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
